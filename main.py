@@ -9,3 +9,7 @@ def index():
 @app.get('/pythonistas')
 def obtener_pythonistas():
     return ['elena','pablo','hola','chido']
+
+
+# comando para correr esto
+# uvicorn main:app --reload
